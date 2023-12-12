@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&family=Open+Sans:wght@300&family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-position-y: -140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Charis SIL', serif;
+    margin: -135px 0 0 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+span {
+    margin-top: 7px;
+    font-size: 27px;
+}
+
+.countdown-container {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+
+.big-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 2px 2px 2px 2px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    text-shadow: 3px 3px 6px black;
+    box-shadow: 6px 6px 15px 0px black;
+}
+
+.box--left {
+    border-radius: 20px 2px 2px 20px;
+}
+
+.box--right {
+    border-radius: 2px 20px 20px 2px;
+}
+
+.days-c, .hours-c, .minutes-c, .seconds-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 130px;
+    width: 150px;
+}
